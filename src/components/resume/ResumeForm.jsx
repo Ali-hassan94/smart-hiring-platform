@@ -6,29 +6,36 @@ export default function ResumeForm() {
       border
       border-white/10
       bg-white/5
-      p-8
+      p-5
+      sm:p-6
+      lg:p-8
       "
     >
       <h2
         className="
-        text-2xl
+        text-xl
+        sm:text-2xl
         font-bold
-        mb-8
+        mb-6
         "
       >
         Resume Information
       </h2>
 
       <div className="space-y-4">
+
         <input
           placeholder="Full Name"
           className="
           w-full
-          p-4
           rounded-xl
-          bg-black/20
           border
           border-white/10
+          bg-black/20
+          p-3
+          sm:p-4
+          outline-none
+          focus:border-cyan-400
           "
         />
 
@@ -36,26 +43,34 @@ export default function ResumeForm() {
           placeholder="Professional Title"
           className="
           w-full
-          p-4
           rounded-xl
-          bg-black/20
           border
           border-white/10
+          bg-black/20
+          p-3
+          sm:p-4
+          outline-none
+          focus:border-cyan-400
           "
         />
 
         <textarea
-          rows="5"
+          rows={6}
           placeholder="Professional Summary"
           className="
           w-full
-          p-4
           rounded-xl
-          bg-black/20
           border
           border-white/10
+          bg-black/20
+          p-3
+          sm:p-4
+          outline-none
+          resize-none
+          focus:border-cyan-400
           "
         />
+
       </div>
     </div>
   );

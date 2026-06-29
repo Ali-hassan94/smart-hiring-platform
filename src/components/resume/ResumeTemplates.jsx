@@ -17,6 +17,8 @@ export default function ResumeTemplates({
     <div
       className="
       grid
+      grid-cols-2
+      sm:grid-cols-2
       md:grid-cols-4
       gap-4
       "
@@ -24,21 +26,24 @@ export default function ResumeTemplates({
       {templates.map((template) => (
         <motion.button
           key={template}
-          whileHover={{
-            scale: 1.05,
-          }}
-          onClick={() =>
-            setSelected(template)
-          }
+          whileHover={{ scale: 1.05 }}
+          onClick={() => setSelected(template)}
           className={`
-          p-6
+          w-full
           rounded-2xl
           border
+          p-4
+          sm:p-5
+          lg:p-6
+          text-sm
+          sm:text-base
+          font-semibold
+          transition
 
           ${
             selected === template
-              ? "border-white"
-              : "border-white/10"
+              ? "border-white bg-white/10"
+              : "border-white/10 hover:border-white/30"
           }
           `}
         >
