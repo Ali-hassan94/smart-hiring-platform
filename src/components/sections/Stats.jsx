@@ -121,7 +121,7 @@ export default function Stats() {
           <p className="mt-6 text-gray-400 max-w-3xl mx-auto text-lg leading-8">
 
             HireFlow AI helps companies recruit faster while giving
-            professionals access to the world's best opportunities.
+            professionals access to the world best opportunities.
 
           </p>
 

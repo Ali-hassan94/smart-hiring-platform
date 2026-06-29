@@ -3,22 +3,14 @@ export const companies = [
     slug: "techverse",
     name: "TechVerse",
     location: "Lahore, Pakistan",
-
     tagline: "Building the future of digital products",
-
     logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623",
-
     employees: 450,
-
     founded: 2018,
-
     rating: 4.8,
-
     openJobs: 12,
-
     about:
       "TechVerse is a rapidly growing software company delivering enterprise solutions worldwide.",
-
     benefits: [
       "Remote Work",
       "Health Insurance",
@@ -26,18 +18,199 @@ export const companies = [
       "Learning Budget",
       "Flexible Hours",
     ],
-
     jobs: [
       "Senior React Developer",
-      "UI UX Designer",
+      "UI/UX Designer",
       "DevOps Engineer",
       "Product Manager",
     ],
-
     gallery: [
       "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    ],
+  },
+
+  {
+    slug: "google",
+    name: "Google",
+    location: "USA",
+    tagline: "Organizing the world’s information",
+    logo: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    employees: 190000,
+    founded: 1998,
+    rating: 4.9,
+    openJobs: 120,
+    about: "Global technology leader in search, cloud, and AI.",
+    benefits: ["Free Meals", "Health Insurance", "Remote Options"],
+    jobs: ["Software Engineer", "Cloud Architect", "ML Engineer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    ],
+  },
+
+  {
+    slug: "amazon",
+    name: "Amazon",
+    location: "USA",
+    tagline: "Customer-first innovation",
+    logo: "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19",
+    employees: 1500000,
+    founded: 1994,
+    rating: 4.7,
+    openJobs: 200,
+    about: "Global e-commerce and cloud computing giant.",
+    benefits: ["Stock Options", "Health Care", "Remote Work"],
+    jobs: ["Backend Engineer", "DevOps Engineer", "Data Scientist"],
+    gallery: [
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+      "https://images.unsplash.com/photo-1556741533-f6acd647d2fb",
+    ],
+  },
+
+  {
+    slug: "netflix",
+    name: "Netflix",
+    location: "USA",
+    tagline: "Entertainment at scale",
+    logo: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+    employees: 12000,
+    founded: 1997,
+    rating: 4.8,
+    openJobs: 80,
+    about: "Streaming platform changing global entertainment.",
+    benefits: ["Unlimited PTO", "Remote Work", "Stock Options"],
+    jobs: ["Frontend Engineer", "Backend Engineer", "UI Designer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+      "https://images.unsplash.com/photo-1497032205916-ac775f0649ae",
+    ],
+  },
+
+  {
+    slug: "meta",
+    name: "Meta",
+    location: "USA",
+    tagline: "Connecting the world",
+    logo: "https://images.unsplash.com/photo-1549924231-f129b911e442",
+    employees: 80000,
+    founded: 2004,
+    rating: 4.7,
+    openJobs: 150,
+    about: "Social technology company behind Facebook, Instagram.",
+    benefits: ["Free Housing", "Health Insurance", "Stock Grants"],
+    jobs: ["React Developer", "AR Engineer", "UI Designer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf",
+    ],
+  },
+
+  {
+    slug: "microsoft",
+    name: "Microsoft",
+    location: "USA",
+    tagline: "Empowering every person and organization",
+    logo: "https://images.unsplash.com/photo-1581091870620-4b0b3c5b3c2f",
+    employees: 220000,
+    founded: 1975,
+    rating: 4.9,
+    openJobs: 180,
+    about: "Global software and cloud leader.",
+    benefits: ["Hybrid Work", "Health Insurance", "Bonus"],
+    jobs: ["Software Engineer", "Azure Engineer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    ],
+  },
+
+  {
+    slug: "spotify",
+    name: "Spotify",
+    location: "Sweden",
+    tagline: "Music for everyone",
+    logo: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    employees: 9000,
+    founded: 2006,
+    rating: 4.6,
+    openJobs: 60,
+    about: "Audio streaming platform.",
+    benefits: ["Remote Work", "Free Premium", "Health Care"],
+    jobs: ["Frontend Developer", "Backend Engineer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1487180144351-b8472da7d491",
+    ],
+  },
+
+  {
+    slug: "uber",
+    name: "Uber",
+    location: "USA",
+    tagline: "Transportation reinvented",
+    logo: "https://images.unsplash.com/photo-1511910849309-0dffb878c2b4",
+    employees: 30000,
+    founded: 2009,
+    rating: 4.5,
+    openJobs: 90,
+    about: "Ride-sharing and mobility platform.",
+    benefits: ["Flexible Hours", "Insurance", "Remote Options"],
+    jobs: ["Mobile Developer", "Backend Engineer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    ],
+  },
+
+  {
+    slug: "aws",
+    name: "AWS",
+    location: "USA",
+    tagline: "Cloud computing leader",
+    logo: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    employees: 100000,
+    founded: 2006,
+    rating: 4.9,
+    openJobs: 140,
+    about: "Amazon Web Services cloud platform.",
+    benefits: ["High Salary", "Remote Work", "Training"],
+    jobs: ["Cloud Engineer", "DevOps Engineer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    ],
+  },
+
+  {
+    slug: "tcs",
+    name: "TCS",
+    location: "India",
+    tagline: "IT services global leader",
+    logo: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    employees: 600000,
+    founded: 1968,
+    rating: 4.6,
+    openJobs: 300,
+    about: "Global IT services company.",
+    benefits: ["Job Security", "Training Programs"],
+    jobs: ["Software Engineer", "QA Engineer"],
+    gallery: [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    ],
+  },
+
+  {
+    slug: "oracle",
+    name: "Oracle",
+    location: "USA",
+    tagline: "Enterprise software solutions",
+    logo: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    employees: 140000,
+    founded: 1977,
+    rating: 4.5,
+    openJobs: 110,
+    about: "Database and enterprise software company.",
+    benefits: ["Insurance", "Hybrid Work"],
+    jobs: ["Backend Engineer", "Database Admin"],
+    gallery: [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
     ],
   },
 ];

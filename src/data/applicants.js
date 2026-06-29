@@ -1,12 +1,17 @@
 export const applicants = [
-  {
-    id: 1,
-    name: "Ali Hassan",
-    job: "Frontend Developer",
-  },
-  {
-    id: 2,
-    name: "Ahmed Khan",
-    job: "Backend Developer",
-  },
+  { id: 1, name: "Ali Hassan", job: "Frontend Developer" },
+  { id: 2, name: "Ahmed Khan", job: "Backend Developer" },
+  { id: 3, name: "Sara Ali", job: "UI/UX Designer" },
+  { id: 4, name: "Usman Tariq", job: "Full Stack Developer" },
+  { id: 5, name: "Ayesha Malik", job: "Frontend Developer" },
+  { id: 6, name: "Hassan Raza", job: "DevOps Engineer" },
+  { id: 7, name: "Fatima Noor", job: "Product Manager" },
+  { id: 8, name: "Bilal Ahmed", job: "Mobile App Developer" },
+  { id: 9, name: "Zainab Khan", job: "QA Engineer" },
+  { id: 10, name: "Omar Farooq", job: "Software Engineer" },
+  { id: 11, name: "Hira Shah", job: "Data Analyst" },
+  { id: 12, name: "Saad Ali", job: "React Developer" },
+  { id: 13, name: "Laiba Noor", job: "Frontend Developer" },
+  { id: 14, name: "Daniyal Ahmed", job: "Backend Developer" },
+  { id: 15, name: "Rabia Malik", job: "UI Designer" },
 ];
